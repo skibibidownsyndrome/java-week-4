@@ -12,14 +12,12 @@ public static void main(String[]args){
 
     Scanner input = new Scanner(System.in);
 
-    System.out.println("fahrenheit ");
+    System.out.println("Enter fahrenheit ");
     fahrenheit = input.nextInt();
 
 
-    System.out.println("celcius ");
-    celcius = input.nextInt();
 
-    celcius = 5/9* (fahrenheit - 32);
+    celcius = 5.0/9.0* (fahrenheit - 32);
 
     System.out.println("Celcius is: " + celcius);
 
